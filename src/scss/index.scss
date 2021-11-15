@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import './components/Navbar.scss';
+@import './pages/Home.scss';
+@import './pages/Projects.scss';
+@import './pages/About.scss';
+@import './pages/Contact.scss';
+
+
+
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+body{
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+
+//--------------------------------FLEX---------------------------------------
+.o-flex{
+    display: flex;
+}
+
+.o-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.o-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-flex-hsa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.o-flex-vsa{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.o-flex-hvsa{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+
+//-----------------------------GRID----------------------------------------------
+.o-grid{
+    display: grid;
+}
+
+
+//------------------------------GAP----------------------------------------------
+.o-gap1{
+    gap: 1rem;
+}
+
+.o-gap2{
+    gap: 2rem;
+}
+
+.o-gap3{
+    gap: 3rem;
+}
+
+.o-gap4{
+    gap: 4rem;
+}
+
+
+//------------------------------RESET----------------------------------------------
+.o-ul--reset{
+    list-style: none;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.o-link--reset{
+    text-decoration: inherit;
+    color: inherit;
+}
