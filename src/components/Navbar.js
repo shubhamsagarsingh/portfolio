@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
 
             <div className='l-navbar__right o-flex-hsa o-gap1'>
-                <ul className='e-navbar__list o-flex-hsa o-gap1 o-ul--reset'>
+                <ul className='e-navbar__list o-flex-hsa o-gap3 o-ul--reset'>
                     <NavLink className='o-link--reset' to='/'><li>HOME</li></NavLink>
                     <NavLink className='o-link--reset' to='/projects'><li>PROJECTS</li></NavLink>
                     <NavLink className='o-link--reset' to='/about'><li>ABOUT</li></NavLink>

@@ -1,0 +1,50 @@
+//-------------------------------BLOCK-----------------------------------------
+.b-home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9), rgba(50,50,50,0.8), rgba(10, 10, 10, 0.85), rgba(10,10,10,0.95)), url(../../images/pic1.jpg) no-repeat;
+}
+
+
+//-------------------------------LEFT-----------------------------------------
+.l-home__left{
+    color: rgb(206, 197, 197);
+
+    & span{
+        font-size: 30px;
+    }
+
+    .e-home__button{
+        padding: 10px 20px;
+        margin-top: 1rem;
+        background: rgb(225, 225, 225);
+        font-size: 1rem;
+        border-radius: 10px;
+
+        &:hover{
+            background: #455166;
+            color: #fff;
+            cursor: pointer;
+            transform: scaleX(1.2);
+            transition: all 0.4s ease-in-out;
+        }
+    }
+}
+
+
+//-------------------------------RIGHT-----------------------------------------
+.l-home__right{    
+
+    & h1{
+        margin-left: 10%;
+        color: rgb(136, 129, 129);
+    }
+}
+
+
+//-------------------------------LAYOUT-----------------------------------------
+.l-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
