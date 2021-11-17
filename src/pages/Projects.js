@@ -1,6 +1,10 @@
 const Projects = () => {
     return(
-        <h1>Projects Page</h1>
+        <div className='b-project o-flex-center'>
+            <div>
+                <h1>Project Page</h1>                
+            </div>
+        </div>
     )
 }
 

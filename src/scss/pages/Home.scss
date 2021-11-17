@@ -15,11 +15,12 @@
     }
 
     .e-home__button{
+        border: none;
         padding: 10px 20px;
         margin-top: 1rem;
         background: rgb(225, 225, 225);
         font-size: 1rem;
-        border-radius: 10px;
+        border-radius: 20px;
 
         &:hover{
             background: #455166;

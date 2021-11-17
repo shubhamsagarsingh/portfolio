@@ -1,0 +1,77 @@
+//-------------------------------BLOCK-----------------------------------------
+.b-contact{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9)), url(../../images/pic1.jpg) no-repeat;
+    color: #fff;
+}
+
+
+//-------------------------------ELEMENT-----------------------------------------
+.e-contact__card{
+    width: 30%;
+
+    & h1{
+        font-size: 3rem;
+    }
+}
+
+
+.e-contact__form{
+    margin-top: 1rem;
+    & label{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: rgb(168, 161, 161);
+    }
+
+    & div{
+        width: 100%;
+    }
+
+    & section{
+        width: 100%;
+    }
+
+    & input{
+        border-radius: 7px;
+        font-size: 1rem;
+        border: 1px solid gray;
+        padding: 10px;
+        width: 100%;
+        height: 45px;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    & textarea{
+        border-radius: 7px;
+        font-size: 1rem;
+        padding: 10px;
+        height: 200px;
+
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+.e-contact__button{
+    border: none;
+    background: rgb(206, 199, 199);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 170px;
+
+    &:hover{
+        background: #455166;
+        color: #fff;
+        cursor: pointer;
+        transform: scaleY(1.2);
+        transition: all 0.4s ease-in-out;
+    }
+}

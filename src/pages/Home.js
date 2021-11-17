@@ -1,4 +1,6 @@
+import { NavLink } from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter'
+
 
 
 
@@ -11,7 +13,7 @@ const Home = () => {
                 <h3>with <span>2+</span> years of experience in freelancing</h3>
                 <h3>as a fullstack web developer</h3>
                 <div className='l-home__buttons o-flex o-gap4'>
-                    <button className='e-home__button'>Hire me as a Freelancer</button>
+                    <NavLink to='/contact'><button className='e-home__button' >Hire me as a Freelancer</button></NavLink>
                     <button className='e-home__button'>Hire me Full Time</button>
                 </div>
             </div>

@@ -1,6 +1,10 @@
 const About = () => {
     return(
-        <h1>About Page</h1>
+        <div className='b-about o-flex-center'>
+            <div>
+                <h1>About Page</h1>                
+            </div>
+        </div>
     )
 }
 
