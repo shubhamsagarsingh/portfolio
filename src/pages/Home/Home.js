@@ -1,3 +1,4 @@
+import './_Home.scss'
 import { NavLink } from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter'
 

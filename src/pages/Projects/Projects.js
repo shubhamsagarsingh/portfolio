@@ -1,4 +1,5 @@
-import ProjectCard from '../components/ProjectCard'
+import './_Projects.scss'
+import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
 
 

@@ -1,3 +1,7 @@
+import './_ProjectCard.scss'
+
+
+
 const ProjectCard = ({title, description, image}) => {
     return(
         <div className='b-project-card o-flex'>

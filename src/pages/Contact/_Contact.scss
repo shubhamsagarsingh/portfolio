@@ -1,0 +1,122 @@
+.e-Contact__wrapper {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.9),
+      rgba(10, 10, 10, 0.9)
+    ),
+    url(../../images/pic1.jpg) no-repeat;
+  color: #fff;
+  overflow: hidden;
+
+  .b-Contact {
+    height: 90%;
+    position: relative;
+    top: 100px;
+
+    .e-Contact__container {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+
+      h1,
+      p {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      form {
+        border: 1px solid rgb(212, 212, 212);
+        box-shadow: 2px 4px 8px rgb(218, 217, 217);
+        border-radius: 8px;
+        padding: 2rem;
+        gap: 3rem 0;
+        overflow: hidden;
+        height: 50%;
+        margin: 0 auto;
+        max-width: 750px;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+
+          li {
+            display: flex;
+            flex-flow: column;
+            gap: 5px;
+
+            input {
+              padding: 1rem;
+              font-size: 1.3rem;
+              height: 45px;
+              border-radius: 8px;
+              border: 1px solid rgb(207, 207, 207);
+
+              &:focus {
+                outline: none;
+              }
+            }
+
+            textarea {
+              height: 10rem;
+              border: 1px solid rgb(207, 207, 207);
+              border-radius: 7px;
+              padding: 1rem;
+              font-size: 1.1rem;
+
+              &:focus {
+                outline: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.e-Contact__button {
+  border: none;
+  background: rgb(206, 199, 199);
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 190px;
+  height: 3.2rem;
+
+  &:hover {
+    background: #455166;
+    color: #fff;
+    cursor: pointer;
+    transform: scaleY(1.2);
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+//-------------------------------MEDIA QUERIES-----------------------------------------
+@media (min-width: 468px) {
+  .e-Contact__wrapper {
+    .b-Contact {
+      .e-Contact__container {
+        form {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .e-Contact__wrapper {
+    .b-Contact {
+      .e-Contact__container {
+        form {
+          width: 70%;
+        }
+      }
+    }
+  }
+}

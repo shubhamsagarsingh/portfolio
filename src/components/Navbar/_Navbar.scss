@@ -1,0 +1,33 @@
+.e-Navbar__wrapper {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 100;
+}
+
+.b-Navbar {
+  height: 100%;
+}
+
+.e-Navbar__container {
+  height: 100%;
+  align-items: center;
+
+  ul {
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 14px;
+    color: #fff;
+
+    &:hover {
+      border-bottom: 2px solid red;
+    }
+  }
+}

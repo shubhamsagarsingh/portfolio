@@ -1,3 +1,8 @@
+import './_About.scss'
+
+
+
+
 const About = () => {
     return(
         <div className='b-about o-flex-center'>

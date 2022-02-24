@@ -1,9 +1,9 @@
 import { Switch, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import Projects from './pages/Projects'
-import About from './pages/About'
-import Contact from './pages/Contact'
+import Navbar from './components/Navbar/Navbar'
+import Home from './pages/Home/Home'
+import Projects from './pages/Projects/Projects'
+import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
 
 
 
