@@ -1,22 +1,35 @@
-//-------------------------------BLOCK-----------------------------------------
-.b-project{
-    width: 100%;
-    min-height: 150vh;
-    background: linear-gradient(to right, rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9)), url(../../images/pic1.jpg) no-repeat;
-    color: #fff;
+.e-Project__wrapper {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.9),
+      rgba(10, 10, 10, 0.9)
+    ),
+    url(../../images/pic1.jpg) no-repeat;
+  color: #fff;
 }
 
+.b-Project {
+  height: 89%;
+  position: relative;
+  top: 100px;
+}
 
-//-------------------------------ELEMENT-----------------------------------------
-.e-project__card{
-    // border: 1px solid red;
-    width: 40%;
+.e-Project__container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 
-    & h1{
-        font-size: 3rem;
-    }
+.e-Project__card {
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
 
-    & p{
-        font-size: 1.4rem;
-    }
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
 }

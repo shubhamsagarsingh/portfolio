@@ -24,10 +24,20 @@ a {
   display: flex;
 }
 
+.o-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 //activeClassName--------------------------------------------------------------
 .o-activeClassName {
   color: red;
   transform: scale(2);
+}
+
+//Hide scrollbar for Chrome, Edge, Safari, Opera--------------------------------
+::-webkit-scrollbar {
+  display: none;
 }
 
 //MEDIA QUERY - GLOBAL----------------------------------------------------------

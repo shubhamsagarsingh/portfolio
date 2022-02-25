@@ -23,11 +23,28 @@
     display: flex;
     align-items: center;
     padding: 0 1rem;
-    font-size: 14px;
+    font-size: 10px;
     color: #fff;
 
     &:hover {
       border-bottom: 2px solid red;
+    }
+  }
+}
+
+//MEDIA QUERY-------------------------------------------------------------
+@media (min-width: 468px) {
+  .e-Navbar__container {
+    ul li {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .e-Navbar__container {
+    ul li {
+      font-size: 14px;
     }
   }
 }

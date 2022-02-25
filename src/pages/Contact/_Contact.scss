@@ -11,14 +11,15 @@
   overflow: hidden;
 
   .b-Contact {
-    height: 90%;
+    height: 100%;
     position: relative;
     top: 100px;
 
     .e-Contact__container {
-      height: 100%;
+      height: 84%;
       width: 100%;
-      overflow: hidden;
+      overflow-y: scroll;
+      scrollbar-width: none;
 
       h1,
       p {
@@ -32,8 +33,7 @@
         border-radius: 8px;
         padding: 2rem;
         gap: 3rem 0;
-        overflow: hidden;
-        height: 50%;
+        height: 85%;
         margin: 0 auto;
         max-width: 750px;
 
@@ -81,7 +81,6 @@
   border: none;
   background: rgb(206, 199, 199);
   font-size: 1.3rem;
-  margin-top: 1rem;
   border-radius: 20px;
   padding: 10px 20px;
   width: 190px;
@@ -114,7 +113,7 @@
     .b-Contact {
       .e-Contact__container {
         form {
-          width: 70%;
+          width: 90%;
         }
       }
     }

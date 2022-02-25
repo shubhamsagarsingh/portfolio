@@ -18,11 +18,16 @@ const Projects = () => {
     }
 
     return(
-        <div className='b-project o-flex-center'>
-            <div className='e-project__card o-flex-column o-gap4'>
-                <h1>Projects</h1>
-                <ProjectCard title={brandObj1.title} description={brandObj1.description} image={brandObj1.image} />
-                <ProjectCard title={brandObj2.title} description={brandObj2.description} image={brandObj2.image}/>             
+        <div className='e-Project__wrapper'>
+            <div className='b-Project o-responsiveBlock'>
+                <div className='e-Project__container'>
+                    <div className='e-Project__card'>
+                        <h1>Projects</h1>
+                        <ProjectCard title={brandObj1.title} description={brandObj1.description} image={brandObj1.image}/><br/><br/>
+                        <ProjectCard title={brandObj2.title} description={brandObj2.description} image={brandObj2.image}/><br/><br/>            
+                        <ProjectCard title={brandObj2.title} description={brandObj2.description} image={brandObj2.image}/><br/><br/>          
+                    </div>
+                </div>
             </div>
         </div>
     )
