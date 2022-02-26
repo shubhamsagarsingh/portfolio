@@ -16,15 +16,15 @@ const Home = () => {
                         <h3>with <span>2+</span> years of experience in freelancing</h3>
                         <h3>as a fullstack web developer</h3>
                         <div className='e-Home__buttons o-flex'>
-                            <NavLink to='/contact'><button className='e-Home__button' >Hire me as a Freelancer</button></NavLink>
-                            <NavLink to='/contact'><button className='e-Home__button'>Hire me Full Time</button></NavLink>
+                            <NavLink to='/contact'><button className='e-Home__button' >Hire me</button></NavLink>
+                            <NavLink to="/files/resume2022.pdf" target="_blank" download><button className='e-Home__button'>Download Resume</button></NavLink>
                         </div>
                     </div>
 
                     <div className='e-Home__right'>
                         <h1 className='e-Home__name o-flex'>
                             <Typewriter words={['Shubham Sagar Singh']} 
-                                loop={500} 
+                                loop={2} 
                                 cursor
                                 cursorStyle='|'
                                 typeSpeed={70}

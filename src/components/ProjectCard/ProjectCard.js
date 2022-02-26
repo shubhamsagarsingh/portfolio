@@ -1,4 +1,5 @@
 import './_ProjectCard.scss'
+import { Link } from 'react-router-dom'
 
 
 
@@ -11,8 +12,8 @@ const ProjectCard = ({title, description, image}) => {
                 <h2>{title}</h2>
                 <p>{description}</p>
                 <div className='e-ProjectCard__button-group o-flex'>
-                    <button className='e-ProjectCard__button'>See Code</button>
-                    <button className='e-ProjectCard__button'>Visit Website</button>
+                    <button className='e-ProjectCard__button'><a href='https://github.com/shubhamsagarsingh' target='_blank'>See Code</a></button>
+                    {/* <button className='e-ProjectCard__button'>Visit Website</button> */}
                 </div>
             </div>
         </div>
