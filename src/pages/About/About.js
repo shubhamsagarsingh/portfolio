@@ -10,7 +10,7 @@ const About = () => {
                 <div className='e-About__container'>              
                     <div className='e-About__card o-flex-column'>
                         <h1>About <i>Shubham Sagar Singh</i></h1>
-                        <p>I am a fullstack web developer with 2+ years of freelancing experience.</p>
+                        <p>I am a fullstack web developer with 2+ years of professional web development experience.</p>
                         <p>I have always been fascinated by web technology and that's why I love creating websites that are functional, responsive, asthetically pleasing and have great user experience.</p>
                         <h2>TECH STACK</h2>
                         <div className='o-flex'>
