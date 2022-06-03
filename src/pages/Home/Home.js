@@ -13,7 +13,8 @@ const Home = () => {
                 <div className='e-Home__container o-flex'>
                     <div className='e-Home__left'>
                         <h3>I'm a Computer Science graduate</h3>
-                        <h3>& have been building websites with React.Js <span>since December 2018</span> </h3>
+                        <h3>& have been building websites with React.Js</h3>
+                        <h3><span>since December 2018</span></h3>
                         <h3>as a fullstack web developer</h3>
                         <div className='e-Home__buttons o-flex'>
                             <NavLink to='/contact'><button className='e-Home__button' >Hire me</button></NavLink>
